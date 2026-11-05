@@ -1,4 +1,4 @@
-# Chiplet-RetryLink
+# Chiplet link retry controller
 
 Stop-and-wait reliable payload transport control with sequence and CRC.
 
