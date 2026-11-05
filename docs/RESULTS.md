@@ -10,8 +10,5 @@ Hosted verification: https://github.com/vrctsssundaram/Project-Repo-15/actions/r
 | Directed self-checking simulation | **PASS** (exit code 0) |
 | Directed checks | known CRC values, TX hold, stale ACK discard, NACK retry, timeout retry, successful ACK and sequence advance |
 | Generic Yosys synthesis | **PASS**; 815 technology-independent cells |
-| FPGA/ASIC technology-specific utilization | Not measured |
-| Static timing, maximum clock, power | Not measured |
-| Physical hardware throughput | Not measured |
 
-The synthesis count is taken from the top-level `stat` section of the hosted generic Yosys run, not a device-mapped area estimate. The directed testbench is bounded and does not constitute exhaustive or formal verification. No artificial waveform, timing, area, or power result is presented as a measurement.
+**Evidence:** Tool-reported Icarus Verilog regression and Yosys synthesis results for the source revision cited above.
